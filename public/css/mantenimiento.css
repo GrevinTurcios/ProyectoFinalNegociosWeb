@@ -1,0 +1,76 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Permite el desplazamiento vertical y horizontal */
+    color: white;
+}
+
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que el video esté detrás del contenido */
+    overflow: hidden;
+}
+
+.background-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.container-l {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para el contenido */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto; /* Añade un margen para el contenedor */
+    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    width: 95%;
+    
+}
+
+/* Estilo para el contenedor de la tabla */
+.table-container {
+    overflow-x: auto; /* Permite el scroll horizontal si es necesario */
+    margin: 20px 0; /* Espacio arriba y abajo del contenedor de la tabla */
+    
+}
+
+/* Estilo para la tabla */
+.tabla {
+    width: 100%;
+    border-collapse: collapse; /* Elimina el espacio entre bordes */
+}
+
+/* Estilo para las celdas de la tabla */
+.tabla th, .tabla td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Estilo para las imágenes en la tabla */
+.tabla img {
+    max-width: 100px; /* Ajusta el tamaño máximo según sea necesario */
+    max-height: 100px; /* Ajusta el tamaño máximo según sea necesario */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área del contenedor */
+}
+
+
+  
+  

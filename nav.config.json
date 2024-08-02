@@ -1,0 +1,36 @@
+{
+  "public": [
+    {
+      "id": "Menu_SignIn",
+      "nav_url": "index.php?page=Sec_Login",
+      "nav_label":"<i class=\"fas fa-sign-in-alt\"></i>&nbsp;Iniciar Sesión"
+    },
+     {
+      "id": "Menu_SignUp",
+      "nav_url": "index.php?page=Sec_Register",
+      "nav_label":"<i class=\"fas fa-user-plus\"></i>&nbsp;Crear Cuenta"
+    },
+    {
+      "id": "Catalogo",
+      "nav_url": "index.php?page=Landing-CatalogoProductos",
+      "nav_label":"<i class=\"fas fa-th-list\"></i>&nbsp;Catalogo"
+    },
+    {
+      "id": "Carrito",
+      "nav_url": "index.php?page=Landing-Carrito",
+      "nav_label":"<i class=\"fas fa-shopping-cart\"></i>&nbsp;Carrito"
+    },
+    {
+      "id": "Mantenimiento",
+      "nav_url": "index.php?page=Mantenimiento-Catalogo-Catalogos",
+      "nav_label":"<i class=\"fas fa-tools\"></i>&nbsp;Mantenimiento"
+    }
+  ],
+  "private": [
+    {
+      "id":"Menu_PaymentCheckout",
+      "nav_url": "index.php?page=Checkout_Checkout",
+      "nav_label": "Carretilla de Compra"
+    }
+  ]
+}

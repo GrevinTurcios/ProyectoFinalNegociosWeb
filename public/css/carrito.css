@@ -1,0 +1,113 @@
+/* styles.css */
+.carrito-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.carrito-icon {
+    width: 40px; /* Ajusta el tamaño del ícono según sea necesario */
+    height: 40px;
+}
+
+.carrito-count {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button.plus {
+    background-color: green;
+    color: white;
+}
+
+button.minus {
+    background-color: red;
+    color: white;
+}
+
+/* styles.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button.plus {
+    background-color: green;
+    color: white;
+}
+
+button.minus {
+    background-color: red;
+    color: white;
+}
+
+#carrito-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#carrito-count {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#total-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#pagar-button {
+    display: block;
+    margin: 20px auto;
+}
